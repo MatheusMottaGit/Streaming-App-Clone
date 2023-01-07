@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Montserrat:wght@300&family=Poppins&family=Roboto&display=swap');
+
+:root{
+    --bg: #1e1d1d;
+    --logoAndOthers: #ff0000;
+    --letters: #f0f8ff;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+h1{
+    font-family: Bebas Neue;
+}
+
+h1, h2, p, h3{
+    color: var(--letters);
+    margin-left: 2rem;
+
+}
+
+h2, p, h3{
+    font-family: Montserrat;
+}
+
+p{
+    text-align: center;
+    width: 70%;
+}
+
+h2{
+    text-align: left;
+    width: 97%;
+    font-size: .8rem;
+    margin-top: 5%;
+}
+
+img{
+    cursor: pointer;
+}

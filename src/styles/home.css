@@ -1,0 +1,89 @@
+#contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.movies, .series{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 95%;
+}
+
+
+.movies::-webkit-scrollbar, 
+.series::-webkit-scrollbar{
+    height: 10px;
+}
+
+.movies::-webkit-scrollbar-track, 
+.series::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.movies::-webkit-scrollbar-thumb, 
+.series::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #1a1919; 
+}
+
+.movies img, 
+.series img{
+    margin-right: .5rem;
+    height: 30vh;
+    width: 270px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-movies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.6rem;
+}
+
+.list-movies img{
+    height: 80vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-movie, .container-serie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content p{
+    width: 80%;
+}
+
+.content h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+}

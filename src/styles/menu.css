@@ -1,0 +1,44 @@
+nav, .list, .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.list li{
+    margin: 2rem;
+    color: var(--letters);
+    font-size: .6rem;
+    font-family: Montserrat;
+}
+
+li:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+span{
+    color: red;
+}
+
+form{
+    display: flex;
+}
+
+input{
+   background-color: #000000;
+   border: 0;
+   padding: .4rem;
+   color: var(--letters);
+   width: 250px;
+   outline: none;
+}
+
+button{
+    padding: .5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #000;
+    border: 0;
+}
